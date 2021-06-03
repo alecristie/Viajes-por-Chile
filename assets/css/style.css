@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&family=Roboto:wght@300;400;500&display=swap');
+
+
+html, body{
+    font-family: 'Roboto', sans-serif;
+    font-size:15px;
+    font-weight: 300;
+}
+
+
+
+/*-----------------------helpers*/
+.font-light{
+    font-weight: 300;
+}
+.font-medium{
+    font-weight: 400;
+}
+.font-bold{
+    font-weight: 500;
+}
+
+/* sección de Navbar*/
+nav{
+    background-color: #299ea8;
+   }
+   
+
+/* logo del nabvar */
+.img-fluid{ 
+    width:30px;
+    max-width: 120px;
+}
+
+/* Linea cian */
+.hero-line{
+    width: 100%;
+    height: 0.5px;
+    background-color: #299ea8;
+}
+
+
+/* Carousel banner */
+.carousel .carousel-item {
+     height: 780px;
+     background-position: center;
+}
+        
+ .carousel-item img {
+        position: absolute;
+        object-fit:cover;
+        top: 0;
+        left: 0;
+        min-height: 780px;
+        background-position: center;
+        height: 50vh;
+  }
+
+  /* Cards */
+.card{
+    width: 30%;
+    background-color:#299ea8; 
+}
+
+.card-body{
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -o-transition:  all .3s ease-out;
+    transition: all .3s ease-out;
+}
+.card-text{
+    line-height: 1.5;
+}
+
+.info-hidden {
+    opacity: 0;
+    border: none;
+        }
+
+.info-block{
+    opacity: 1;
+        }
+
+.bg-black{
+background-color: #050400;
+}
+
+.quienes-somos{
+    padding-top: 5rem!important;
+    line-height: 2.0;
+}
+
+/* tipografía*/
+h1{
+    font-size: 1.6rem;
+    font-weight: 400; 
+    line-height: 2.5;
+}
+
+h2{
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.5;
+}
+
+h5{
+    font-size: 1.2rem;
+}
+
+h6{
+    font-size: 1.2rem;
+    line-height: 2.5;
+}
+
+p{
+    font-size: 1.0rem;
+    font-family: 'Montserrat';
+    font-weight: 300;
+}
+
+footer{
+    background-color: #299ea8;
+    padding-bottom: 10px;
+    font-weight: 300px;
+    
+}
+
+.icono{
+    background-color:#299ea8; ;
+}
+
+
+
+ /* Small Devices, Tablets */
+ @media only screen and (max-width : 768px) {
+    .container{
+        padding-left:10%;
+        padding-right:10%;
+    }
+    .card{
+        width: 100%;
+    }
+    .newsletter-container .row{
+        padding-left:10%;
+        padding-right:10%;
+    }
+    .containers .col-lg-6{
+        margin-bottom: 10%;
+    }
+   
+ }
